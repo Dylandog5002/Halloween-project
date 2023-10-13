@@ -1,3 +1,14 @@
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: sticky;
+	top: 0;
+	background-color: #CCD6E3;
+	padding: 1% 2%;
+	border-bottom: 3px solid #3C4E63;
+	font-family: 'Anton', sans-serif;
+
 /* Calendar CSS */
 ul {list-style-type: none;}
 body {font-family: Verdana, sans-serif;}
