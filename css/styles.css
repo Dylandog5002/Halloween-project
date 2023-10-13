@@ -36,6 +36,14 @@ header {
 	color: #CCD6E3;
 }
 
+footer {
+	min-height: 130px;
+	text-align: center;
+	background-color: #9EA6B0;
+	border-top: 3px solid #5A5E63;
+	font-family: 'Playfair Display', serif;
+}
+
 /* Calendar CSS */
 ul {list-style-type: none;}
 body {font-family: Verdana, sans-serif;}
