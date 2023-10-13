@@ -10,28 +10,28 @@ header {
 	font-family: 'Anton', sans-serif;
 }
 
-nav {
+.hNav {
 	font-family: 'Teko', sans-serif;
 	font-size: 1.5em;
 }
 
-nav ul {
+.hNav ul {
 	list-style-type: none;
 }
 
-nav li {
+.hNav li {
 	display: inline-block;
 	padding: 0 3px;
 }
 
-nav a {
+.hHav a {
 	text-decoration: none;
 	color: #0E0830;
 	padding: 0 4px;
 	border-radius: 10px
 }
 
-nav a:hover {
+.hNav a:hover {
 	background-color: #0E0830;
 	color: #CCD6E3;
 }
