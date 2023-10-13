@@ -8,6 +8,33 @@ header {
 	padding: 1% 2%;
 	border-bottom: 3px solid #3C4E63;
 	font-family: 'Anton', sans-serif;
+}
+
+nav {
+	font-family: 'Teko', sans-serif;
+	font-size: 1.5em;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav li {
+	display: inline-block;
+	padding: 0 3px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #0E0830;
+	padding: 0 4px;
+	border-radius: 10px
+}
+
+nav a:hover {
+	background-color: #0E0830;
+	color: #CCD6E3;
+}
 
 /* Calendar CSS */
 ul {list-style-type: none;}
