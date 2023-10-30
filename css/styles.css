@@ -14,12 +14,13 @@ font-family: 'Rubik Moonrocks', sans-serif; (headers)
 
 .logo {
 	margin: 0 auto;
+	width: 30%;
 }
 
-img {
+img, video {
 /*	display: block;*/
 	padding: 1% 1%;
-	word-wrap: normal;
+	width: 50%;
 }
 
 body {
@@ -116,21 +117,43 @@ footer {
 	text-align: center;
 	background-color: #260B2C;
 	border-top: 9px solid #56194F; /* #561194F */
-	font-family: 'Playfair Display', serif;
+	font-family: 'Almendra', serif;
 	color: #eeFFee;
-/*	font-weight: bold;*/
 	min-height: 130px;
 }
 
+footer p {
+	font-size: 1em;
+}
+
+table {
+	text-align: center;
+	margin: 0 auto;
+	font-size: 1.5em;
+	font-family: 'Almendra', serif;
+}
+
+.btn {
+    margin: 0 auto;
+    border: none;
+    display: block;
+    padding: 2%;
+    background-color: #b3b3b3;
+    font-size: .8em;
+    border-radius: 10px;
+	font-family: 'Almendra', serif;
+}
+
 /* Calendar CSS */
-ul {list-style-type: none;}
-body {font-family: Verdana, sans-serif;}
+
+.calendar {
+	padding: 2% 0;
+}
 
 /* Month header */
 .month {
   padding: 70px 25px;
-  width: 100%;
-  background: #1abc9c;
+  background: #000;
   text-align: center;
 }
 
@@ -193,7 +216,48 @@ body {font-family: Verdana, sans-serif;}
   /* Highlight the "current" day */
   .days li .active {
     padding: 5px;
-    background: #1abc9c;
-    color: white !important
+    background: #FEA775;
+	border: 2px solid #000;
+    color: black !important
   }  
 /* end of Calendar CSS */
+
+@media screen and (min-width: 640px), print {
+        
+        .logo {
+            width: 20%;
+        }
+        
+        img, video {
+			max-width: 50%;
+		}
+        
+        p {
+			padding-bottom: 1%;
+			font-size: 1.2em;
+			border-radius: 10px;
+		}
+	
+	.map {
+		width: 60%;
+		min-height: 450px;
+	}
+        
+    }
+    
+    @media screen and (min-width: 1020px), print {
+        
+        .logo {
+            width: 10%;
+        }
+        
+       video, img {
+			width: 25%;
+		}
+		
+        p {
+			font-size: 1.5em;
+			border-radius: 10px;
+		}
+		
+    }
