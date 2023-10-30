@@ -1,7 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Almendra&family=Rubik+Moonrocks&display=swap');
+
+/*
+font-family: 'Abhaya Libre', serif; (nav)
+font-family: 'Almendra', serif; (normal text)
+font-family: 'Rubik Moonrocks', sans-serif; (headers)
+*/
+
 * {
 	padding: 0;
 	margin: 0;
 	border: 0;
+}
+
+.logo {
+	margin: 0 auto;
+}
+
+img {
+/*	display: block;*/
+	padding: 1% 1%;
+	word-wrap: normal;
 }
 
 body {
@@ -11,41 +29,78 @@ body {
 }
 
 header {
-	display: flex;
-	justify-content: space-between;
+	text-align: center;
 	align-items: center;
-	position: sticky;
-	top: 0;
-	background-color: #D46059;
 	padding: 1% 2%;
-	border-bottom: 9px solid #AA405B;
-	font-family: 'Anton', sans-serif;
+	background-color: #260B2C;
+	border-bottom: 9px solid #56194F;
+	min-height: 100px;
+}
+
+h1 {
+	font-family: 'Rubik Moonrocks', sans-serif;
+	font-size: 2.8em;
+}
+
+h2 {
+	font-family: 'Rubik Moonrocks', sans-serif;
+	font-size: 2.5em;
+}
+
+p {
+	font-family: 'Almendra', serif;
+	font-size: 1.3em;
+	padding: 1% 2%;
 }
 
 .hNav {
-	font-family: 'Teko', sans-serif;
 	font-size: 1.5em;
+	font-family: 'Abhaya Libre', serif;
+}
+
+.hNav li {
+	display: inline-block;
+	padding: 10px 1%;
 }
 
 .hNav ul {
 	list-style-type: none;
 }
 
-.hNav li {
-	display: inline-block;
-	padding: 0 3px;
-}
-
-.hHav a {
+.hNav a {
 	text-decoration: none;
-	color: #0E0830;
-	padding: 0 4px;
-	border-radius: 10px
+	color: #FFBD59;
 }
 
 .hNav a:hover {
-	background-color: #0E0830;
-	color: #CCD6E3;
+	background-color: #FFBD59;
+	color: #000000;
+	border-radius: 10px;
+}
+
+.fNav {
+	font-size: 1.4em;
+	font-family: 'Abhaya Libre', serif;
+}
+
+.fNav li {
+	display: inline-block;
+	padding: 10px 1%;
+}
+
+.fNav ul {
+	list-style-type: none;
+}
+
+.fNav a {
+	text-decoration: none;
+	color: #FFBD59;
+}
+
+.fNav a:hover {
+	background-color: #FFBD59;
+	color: #000000;
+	border-radius: 10px;
 }
 
 main {
@@ -63,7 +118,7 @@ footer {
 	border-top: 9px solid #56194F; /* #561194F */
 	font-family: 'Playfair Display', serif;
 	color: #eeFFee;
-	font-weight: bold;
+/*	font-weight: bold;*/
 	min-height: 130px;
 }
 
